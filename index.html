@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>StartGulp</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__btn">
+					<span></span>
+				</div>
+				<div class="header__logo">
+					<a href="#"><img class="header__logo" src="images/logo.png" alt=""></a>
+				</div>
+				<nav>
+					<ul class="header__menu  ">
+						<li><a class="header__link" href="#">Main</a> </li>
+						<li><a class="header__link" href="#">Gallery</a> </li>
+						<li><a class="header__link" href="#">News</a></li>
+						<li><a class="header__link" href="#">Profile</a></li>
+					</ul>
+				</nav>
+				<div class="header__phone">
+					<a href="tel:544349000000"><span>+544 3490 00000</span>Звони скорее!</a>
+
+				</div>
+			</div>
+			<h1 class="header__text">
+				Найдено 349 котов
+			</h1>
+		</div>
+	</header>
+
+
+
+	<section class="card">
+		<div class="container">
+			<div class="card__sort">
+				<div class="card__sort-text ">
+					Сортировать по:
+				</div>
+				<div class="card__sort-price ">
+					Цене
+				</div>
+				<div class="card__sort-price card__sort-age">
+					Возрасту
+				</div>
+			</div>
+			<div class="card__wrapper">
+
+				<div class="card__item" data-price="30000" data-age="4">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="card__like--fill card__like--fill--off"
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" />
+						</svg>
+					</div>
+					<img src="images/card-img-1.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							30 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn">Купить</button>
+				</div>
+
+
+				<div class="card__item" data-price="40000" data-age="31">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+							<path class="card__like--fill"
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" />
+						</svg>
+					</div>
+					<img src="images/card-img-2.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							40 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn card__item-btn--off">Продан</button>
+				</div>
+
+
+				<div class="card__item" data-price="20000" data-age="3">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="card__like--fill"
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" />
+						</svg>
+					</div>
+					<img src="images/card-img-3.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							20 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn">Купить</button>
+				</div>
+
+
+				<div class="card__item" data-price="25000" data-age="7">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="card__like--fill"
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" />
+						</svg>
+					</div>
+					<img src="images/card-img-1.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							25 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn">Купить</button>
+				</div>
+
+
+				<div class="card__item" data-price="30000" data-age="5">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="card__like--fill"
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" />
+						</svg>
+					</div>
+					<img src="images/card-img-1.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							30 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn">Купить</button>
+				</div>
+
+
+				<div class="card__item" data-price="10000" data-age="8">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="card__like--fill"
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" />
+						</svg>
+					</div>
+					<img src="images/card-img-1.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							10 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn card__item-btn--off">Продан</button>
+				</div>
+
+
+				<div class="card__item card__item--off" data-price="10000" data-age="8">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path class="card__like--fill"
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" />
+						</svg>
+					</div>
+					<img src="images/card-img-1.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							10 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn card__item-btn--off">Продан</button>
+				</div>
+
+
+				<div class="card__item card__item--off" data-price="10000" data-age="8">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" fill-opacity="0.5" />
+						</svg>
+					</div>
+					<img src="images/card-img-1.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							10 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn card__item-btn--off">Продан</button>
+				</div>
+
+
+				<div class="card__item card__item--off" data-price="10000" data-age="8">
+					<div class="card__sale">
+						-40%
+					</div>
+					<div class="card__like">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M33.7812 2.69531C31.2851 2.69531 28.9966 3.4863 26.9794 5.04634C25.0456 6.54197 23.758 8.44693 23 9.83214C22.242 8.44684 20.9544 6.54197 19.0206 5.04634C17.0034 3.4863 14.7149 2.69531 12.2188 2.69531C5.25298 2.69531 0 8.39293 0 15.9485C0 24.1112 6.55347 29.696 16.4746 38.1505C18.1593 39.5863 20.0689 41.2138 22.0538 42.9494C22.3154 43.1785 22.6514 43.3047 23 43.3047C23.3486 43.3047 23.6846 43.1785 23.9462 42.9495C25.9312 41.2136 27.8408 39.5862 29.5265 38.1496C39.4465 29.696 46 24.1112 46 15.9485C46 8.39293 40.747 2.69531 33.7812 2.69531Z"
+								fill="white" fill-opacity="0.5" />
+						</svg>
+					</div>
+					<img src="images/card-img-1.jpg" alt="" class="">
+					<div class="card__item-inner">
+						<div class="card__item-title">
+							Кот полосатый
+						</div>
+						<div class="card__box">
+							<div class="card__item-color">
+								Коричневый
+								окрас
+							</div>
+							<div class="card__item-age">
+								2 мес.
+								<span>Возраст</span>
+							</div>
+							<div class="card__item-age">
+								4
+								<span>Кол-во лап</span>
+							</div>
+						</div>
+						<div class="card__item-price">
+							10 000 руб.
+						</div>
+					</div>
+					<button class="card__item-btn card__item-btn--off">Продан</button>
+				</div>
+
+
+			</div>
+
+			<div class="card__link">
+				<button class="card__btn">Показать еще 20</button>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="promo">
+		<div class="container">
+			<div class="promo__inner">
+				<div class="promo__box">
+					<h2 class="promo__title">
+						Успей купить!
+					</h2>
+					<div class="promo__text">
+						Подпишись и успей словить все акции
+					</div>
+				</div>
+				<form class="promo__form">
+					<input class="promo__form-inp" type="email" placeholder="Email" required>
+					<a class="promo__form-btn" href="#">Подписаться</a>
+					<label>
+						<input class="promo__form-checkbox" type="checkbox" checked>
+						<span class="promo__check-style"></span>
+						Подписаться на новости
+					</label>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="arrow">
+		<img src="images/arrow.svg" alt="">
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
